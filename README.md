@@ -1,24 +1,24 @@
-# Web Scraping on a Schedule with Django & Celery
-Learn how to schedule regular web scraping, save the data, and more with Django &amp; Celery.
+# 🌐 Web Scraping on a Schedule with Django and Celery
+Learn how to schedule regular web scraping, save the data, and more with Django & Celery.
 
-Topics:
+## Topics:
 
-- Django
-- Celery
-- Selenium
-- Scraped Data to Database via Django
-- Reliable Web Scraping with Selenium + Bright Data
+- 🏗️ Django
+- ⏲️ Celery
+- 🕷️ Selenium
+- 📊 Scraped Data to Database via Django
+- 🌐 Reliable Web Scraping with Selenium + Bright Data
 
-## Getting Started
+## Getting Started 🚀
 
-`macos/linux`
-```
+`macOS/Linux`
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-`windows`
-```
+`Windows`
+```bash
 c:\Python311\python.exe -m venv venv
 .\venv\Scripts\activate
 ```
@@ -29,7 +29,7 @@ python -m pip install pip --upgrade
 python -m pip install -r requirements.txt
 ```
 
-Run a local redis instance via Docker Compose
+Run a local Redis instance via Docker Compose
 ```bash
 docker compose -f compose.yaml up -d
 ```
@@ -51,7 +51,7 @@ ls
 You should see at least `scraphome/` and `manage.py`.
 
 Run your project in 2 terminals:
-- `python manage.py runserver`
-- `celery -A scraphome worker --beat`
+- `python manage.py runserver` 🌟
+- `celery -A scraphome worker --beat` 🛠️
 
-Let's go!
+Let's go! 🚀
